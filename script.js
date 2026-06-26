@@ -523,7 +523,7 @@ function renderBasket(){
     <div class="view-head"><div><div class="eyebrow">Selection</div><h2 class="title">Basket</h2><p class="sub">${basketQty()} item${basketQty()!==1?"s":""} across ${state.basket.length} design${state.basket.length!==1?"s":""}.</p></div></div>
     <div class="panel">${rows}
       <div class="basket-foot">
-        <div class="total">Total quantity<b>${basketQty()} pcs</b></div>
+        <div class="total">Total quantity<b>${basketQty()} Square Meter</b></div>
         <div class="foot-actions">
           <button class="tbtn" data-action="clearbasket">Clear</button>
           <button class="tbtn" data-action="basketwa">Share list</button>
